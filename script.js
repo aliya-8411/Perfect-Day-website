@@ -8,6 +8,7 @@ const taskTexts = document.querySelectorAll(".task-text");
 const sun = document.querySelector(".sun");
 
 
+
 /* ---------- OPEN NOTEPAD ---------- */
 
 notepadButton.addEventListener("click", function () {
