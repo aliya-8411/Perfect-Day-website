@@ -24,7 +24,9 @@ body {
     width: 100vw;
     height: 100vh;
 
-    background-color: skyblue;
+    background-color: #5b7199;
+
+    transition: background-color 1.5s steps(6);
 
     overflow: hidden;
 }
@@ -139,7 +141,7 @@ h3 {
     position: absolute;
 
     left: 50%;
-    bottom: 42%;
+    bottom: 20%;
 
     width: 85px;
     height: 85px;
@@ -148,7 +150,7 @@ h3 {
 
     background-color: var(--sun);
 
-    z-index: 2;
+    z-index: 0;
 
     /*
        Small pixel corners.

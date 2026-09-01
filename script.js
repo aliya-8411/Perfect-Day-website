@@ -36,19 +36,23 @@ function updateSun() {
     });
 
     if (completedTasks === 0) {
-        sun.style.bottom = "42%";
+        sun.style.bottom = "25%";
+        document.querySelector(".window").style.backgroundColor = "#5b7199";
     }
 
     if (completedTasks === 1) {
-        sun.style.bottom = "52%";
+        sun.style.bottom = "38%";
+        document.querySelector(".window").style.backgroundColor = "#7896b5";
     }
 
     if (completedTasks === 2) {
-        sun.style.bottom = "62%";
+        sun.style.bottom = "51%";
+        document.querySelector(".window").style.backgroundColor = "#9fc1d1";
     }
 
     if (completedTasks === 3) {
-        sun.style.bottom = "72%";
+        sun.style.bottom = "64%";
+        document.querySelector(".window").style.backgroundColor = "#87ceeb";
     }
 }
 
